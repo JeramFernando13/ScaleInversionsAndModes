@@ -5,13 +5,20 @@ const STRING_NAMES=["6ª (E)","5ª (A)","4ª (D)","3ª (G)","2ª (B)","1ª (e)"]
 const OPEN_FRETS=[0,5,10,15,19,24];
 
 const FORMS_DEF=[
-  {label:"1ª",startName:"7° grado (s sotto Root)",shift:[4],degrees:[[6,0,1],[4,5,6],[2,3,4],[5,6,0],[3,4,5],[0,1,2]]},
-  {label:"2ª",startName:"Root (1° grado)",shift:[2,4],degrees:[[0,1,2],[5,6,0],[3,4,5],[6,0,1],[4,5,6],[1,2,3]]},
-  {label:"3ª",startName:"2° grado (+1T dalla Root)",shift:[4],degrees:[[1,2,3],[6,0,1],[4,5,6],[1,2,3],[5,6,0],[2,3,4]]},
-  {label:"4ª",startName:"3° grado (+2T dalla Root)",shift:[4],degrees:[[2,3,4],[0,1,2],[5,6,0],[2,3,4],[6,0,1],[3,4,5]]},
-  {label:"5ª",startName:"4° grado (+2T+s dalla Root)",shift:[4],degrees:[[3,4,5],[1,2,3],[6,0,1],[3,4,5],[0,1,2],[4,5,6]]},
-  {label:"6ª",startName:"5° grado (+3T+s dalla Root)",shift:[4],degrees:[[4,5,6],[2,3,4],[0,1,2],[4,5,6],[1,2,3],[5,6,0]]},
-  {label:"7ª",startName:"6° grado (+4T+s dalla Root)",shift:[4],degrees:[[5,6,0],[3,4,5],[1,2,3],[5,6,0],[2,3,4],[6,0,1]]},
+  {label:"1ª",startName:"7° grado (s sotto Root)",shift:[4],
+   degrees:[[6,0,1],[2,3,4],[5,6,0],[1,2,3],[4,5,6],[0,1,2]]},
+  {label:"2ª",startName:"Root (1° grado)",shift:[2,4],
+   degrees:[[0,1,2],[3,4,5],[6,0,1],[2,3,4],[5,6,0],[1,2,3]]},
+  {label:"3ª",startName:"2° grado (+1T dalla Root)",shift:[4],
+   degrees:[[1,2,3],[4,5,6],[0,1,2],[3,4,5],[6,0,1],[2,3,4]]},
+  {label:"4ª",startName:"3° grado (+2T dalla Root)",shift:[4],
+   degrees:[[2,3,4],[5,6,0],[1,2,3],[4,5,6],[0,1,2],[3,4,5]]},
+  {label:"5ª",startName:"4° grado (+2T+s dalla Root)",shift:[4],
+   degrees:[[3,4,5],[6,0,1],[2,3,4],[5,6,0],[1,2,3],[4,5,6]]},
+  {label:"6ª",startName:"5° grado (+3T+s dalla Root)",shift:[4],
+   degrees:[[4,5,6],[0,1,2],[3,4,5],[6,0,1],[2,3,4],[5,6,0]]},
+  {label:"7ª",startName:"6° grado (+4T+s dalla Root)",shift:[4],
+   degrees:[[5,6,0],[1,2,3],[4,5,6],[0,1,2],[3,4,5],[6,0,1]]},
 ];
 
 const MODES=[
